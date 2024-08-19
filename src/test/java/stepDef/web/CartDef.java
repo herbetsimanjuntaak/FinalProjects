@@ -71,15 +71,7 @@ public class CartDef {
         homePage.demoBlazeHomePage();
     }
 
-    @And("The user logs in with valid credentials")
-    public void theUserLogsInWithValidCredentials(io.cucumber.datatable.DataTable dataTable) {
-        List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
-        driver.findElement(By.id("login2")).click();
-        driver.findElement(By.id("loginusername")).sendKeys(data.getFirst().get("username"));
-        driver.findElement(By.id("loginpassword")).sendKeys(data.getFirst().get("password"));
-        driver.findElement(By.xpath("//button[text()='Log in']")).click();
 
-    }
 
     @Given("The user has added items to the Cart")
     public void theUserHasAddedItemsToTheCart() {
