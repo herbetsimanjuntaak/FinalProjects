@@ -1,0 +1,998 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "picture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName",
+                "picture"
+              ]
+            },
+            "post": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "message",
+            "owner",
+            "post",
+            "publishDate"
+          ]
+        }
+      ]
+    },
+    "total": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "limit": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "total",
+    "page",
+    "limit"
+  ]
+}

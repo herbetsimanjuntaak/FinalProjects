@@ -1,0 +1,326 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "likes": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "text": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            },
+            "updatedDate": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "likes",
+            "tags",
+            "text",
+            "publishDate",
+            "updatedDate",
+            "owner"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "likes": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "text": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            },
+            "updatedDate": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "likes",
+            "tags",
+            "text",
+            "publishDate",
+            "updatedDate",
+            "owner"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "likes": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "text": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            },
+            "updatedDate": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "likes",
+            "tags",
+            "text",
+            "publishDate",
+            "updatedDate",
+            "owner"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "likes": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "text": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            },
+            "updatedDate": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "likes",
+            "tags",
+            "text",
+            "publishDate",
+            "updatedDate",
+            "owner"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string"
+            },
+            "likes": {
+              "type": "integer"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "text": {
+              "type": "string"
+            },
+            "publishDate": {
+              "type": "string"
+            },
+            "updatedDate": {
+              "type": "string"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "firstName",
+                "lastName"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "image",
+            "likes",
+            "tags",
+            "text",
+            "publishDate",
+            "updatedDate",
+            "owner"
+          ]
+        }
+      ]
+    },
+    "total": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "limit": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "total",
+    "page",
+    "limit"
+  ]
+}

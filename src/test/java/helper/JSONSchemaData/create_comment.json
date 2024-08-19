@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "firstName",
+        "lastName"
+      ]
+    },
+    "post": {
+      "type": "string"
+    },
+    "publishDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "message",
+    "owner",
+    "post",
+    "publishDate"
+  ]
+}
