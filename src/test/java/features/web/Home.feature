@@ -1,3 +1,4 @@
+@web
 Feature: Home Page Product Navigation
 
   As a user
@@ -14,10 +15,11 @@ Feature: Home Page Product Navigation
 
     Examples:
       | productTitle      |
+      | Nexus 6           |
       | Samsung galaxy s6 |
       | Samsung galaxy s7 |
       | Nokia lumia 1520  |
-      | Nexus 6           |
+
 
   @positive
   Scenario Outline: Browsing products in the "Laptops" category

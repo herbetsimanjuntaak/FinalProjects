@@ -1,4 +1,4 @@
-@POSTING
+@api
 Feature: CREATE,GET,UPDATE,DELETE Post Dummy API
   1. Get List
   Get list of posts sorted by creation date.

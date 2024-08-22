@@ -1,3 +1,4 @@
+@web
 Feature: User Sign Up
 
   @positive
@@ -10,8 +11,8 @@ Feature: User Sign Up
 
     Examples:
       | username | password   |
-      | "bale"   | "Password" |
-      | "pique"  | "Password" |
+      | "dante"  | "Password" |
+      | "alba"   | "Password" |
 
   @negative
   Scenario Outline: Registration with an existing username
@@ -37,8 +38,8 @@ Feature: User Sign Up
 
     Examples:
       | username | password |
-      | "balo"   | "a"      |
-      | "cia"    | "abc"    |
+      | "kante"  | "a"      |
+      | "kanti"  | "abc"    |
 
   @negative
   Scenario Outline: Registration with an empty username and password

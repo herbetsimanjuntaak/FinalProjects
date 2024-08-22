@@ -1,4 +1,4 @@
-@GET
+@api
 Feature: Test Get User Automation Dummy API
   This feature allows users to retrieve information about an existing user via a dummy API for automation purposes.
 
@@ -35,7 +35,7 @@ Feature: Test Get User Automation Dummy API
   @positive
   Scenario: Test get data user by id
     Given prepare url for "GET_LIST_USER_BY_ID"
-    And prepare valid id "66a9f196dfd770b1d69c89fe"
+    And prepare valid id "60d0fe4f5311236168a109d1"
     And hit API get user by id
     Then should return status code 200
     Then validation response body get user by id

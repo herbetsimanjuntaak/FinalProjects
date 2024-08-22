@@ -1,4 +1,4 @@
-@CREATE
+@api
 Feature: Test Create User Automation Dummy API
   This feature allows users to test the creation of a new user via a dummy API for automation purposes.
   It is intended for testing and demonstration only.

@@ -1,4 +1,4 @@
-@UPDATE
+@api
 Feature: Test Update User Automation Dummy API
   This feature allows users to test updating an existing user's information via a dummy API for automation purposes.
 

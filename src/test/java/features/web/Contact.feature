@@ -1,3 +1,4 @@
+@web
 Feature: Contact Form on DemoBlaze
 
   @positive

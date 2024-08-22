@@ -107,10 +107,10 @@ public class GetUserPage {
 
     public void validationResponseBodyGetUserById() {
         String firstName = response.jsonPath().getString("firstName");
-        assertThat(firstName).isIn("Delbert updated");
+        assertThat(firstName).isIn("Kent");
 
         String responseBody = response.getBody().asString();
-        assertTrue(responseBody.contains("Delbert updated"));
+        assertTrue(responseBody.contains("Kent"));
         System.out.println(responseBody);
     }
 

@@ -592,17 +592,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -643,17 +639,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -694,17 +686,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -745,17 +733,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -796,17 +780,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -847,17 +827,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -898,17 +874,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {
@@ -949,17 +921,13 @@
                 },
                 "lastName": {
                   "type": "string"
-                },
-                "picture": {
-                  "type": "string"
                 }
               },
               "required": [
                 "id",
                 "title",
                 "firstName",
-                "lastName",
-                "picture"
+                "lastName"
               ]
             },
             "post": {

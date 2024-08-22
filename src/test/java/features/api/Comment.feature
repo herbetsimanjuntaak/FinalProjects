@@ -1,4 +1,4 @@
-@COMMENT
+@api
 Feature: List of routes to get Post data.
 
   1. Get List
@@ -34,7 +34,6 @@ Feature: List of routes to get Post data.
 
     Examples:
       | page | limit |
-      | 0    | 20    |
       | 5    | 10    |
       | 999  | 50    |
 

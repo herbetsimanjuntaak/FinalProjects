@@ -1,3 +1,4 @@
+@web
 Feature: Cart Functionality
 
   @positive
